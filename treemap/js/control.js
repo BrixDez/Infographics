@@ -26,7 +26,7 @@ $( document ).ready(function() {
 		root = reSortRoot(root,"Paid_fare");
 
 		// DEBUG
-		 $("#rawdata").html(JSON.stringify(root));
+		 //$("#rawdata").html(JSON.stringify(root));
 
 		loadData(root);
 	});
